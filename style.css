@@ -30,6 +30,8 @@ body{
     padding: 3rem;
 
     box-sizing:content-box;
+
+    overflow-x: hidden;
 }
 header{
     display: flex;
