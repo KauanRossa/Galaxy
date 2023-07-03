@@ -9,7 +9,7 @@
 
     font-family: 'Mulish', sans-serif;
 }
-P{
+p{
     color: #C4C4CC;
 }
 h3{
@@ -65,6 +65,8 @@ main{
     border: 1px solid #323238;
 
     justify-self: center;
+
+    transition: all 700ms;
 }
 .cont img{
     border-radius: .8rem .8rem 0 0;
@@ -89,6 +91,10 @@ main{
 
     margin-bottom: 3.8rem;
 }
+.cont:hover{
+    transform: scale(1.1);
+}
+
 
 @media (min-width: 1400px){
     body{
@@ -111,7 +117,7 @@ main{
     }
     main{
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
     .cont{
         width: 36.6rem;
@@ -134,3 +140,4 @@ main{
         margin: 0 auto;
     }
 }
+
