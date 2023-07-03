@@ -73,6 +73,8 @@ main{
 
     width: 26.4rem;
     height: 17.7rem;
+    
+    object-fit: cover;
 }
 .cont h3{
     font-size: 3.5rem;
