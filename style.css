@@ -23,7 +23,7 @@ body{
     align-items: center;
     flex-direction: column;
     
-    width: 600px;
+    width: 31.9rem;
 
     margin: 100px auto;
 
@@ -42,7 +42,7 @@ header{
 header h1{
     color: #02799D;
 
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 900;
 }
 header h3{
